@@ -44,6 +44,10 @@ ol{
 
 /* Contacts */
 
+.contacts-container {
+  margin-bottom: 40px;
+}
+
 .contacts-title{
   color:#161d2a;
   font-size: 22px;
@@ -53,29 +57,22 @@ ol{
   margin-bottom: 8px;
 }
 
-.contacts-type{
-  color:#161d2a;
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 24px;
-  margin-right: 8px;
+.contacts-img{
+  width: 20px;
+  height: 20px;
 }
 
 .contacts-link{
+  display: flex;
+  align-items: center;
+  width: 80px;
+  gap: 8px;
   color:#2979ff;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 24px;
-  text-decoration-line: underline;
+  text-decoration: none;
 }
 
-.contacts-item{
-  margin-top: 0;
-  margin-bottom: 4px;
-}
-
-.contacts-container{
-  margin-bottom: 40px;
+.contacts-link:hover{
+  color: hsl(248, 88%, 56%);
 }
 
 /* Skills container */
@@ -142,7 +139,7 @@ ol{
   margin-bottom: 8px;
 }
 
-.my name{
+.my-name{
   color: #000;
   font-size: 45px;
   font-weight: 700;
@@ -189,9 +186,15 @@ ol{
  font-size: 14px;
  font-weight: 400;
  line-height: 24px;
+ text-decoration: none;
 }
 
-.my projects-container{
+.my-projects-item-link:hover {
+  border-bottom: solid 2px hsl(248, 88%, 56%);;
+  color: hsl(248, 88%, 56%);
+}
+
+.my-projects-container{
   margin-bottom: 40px;
 }
 
